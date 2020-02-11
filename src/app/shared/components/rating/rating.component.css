@@ -1,0 +1,34 @@
+@import "../../../../variable.scss";
+
+.fa-star {
+    color: $lukas-color !important;
+}
+.fa-star-half-o {
+    color: $lukas-color !important;
+}
+
+span.rating-icon a .fa, .Product_name span.rating-icon a .fa, .myorder-table span.rating-icon a .fa {
+    margin-right: 3px;
+}
+
+.star-rating i{ font-size: 2em !important; color: #ffd603  !important; margin-top: 10px !important; }
+.star-rating span{ color: #3a3a3a !important; font-size: 1.2em !important;
+  font-weight: 600;}
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .star-rating{margin: 0px 0 0 6px !important;
+        display: inline-block;
+        width: 100%;}
+    .star-rating i{ font-size: 1.15em !important; }
+    .star-rating span{ font-size: 0.95em !important;} 
+ 	span.rating-icon {
+            margin-left: 0px !important;
+            float: left;
+        }
+        span.rating-icon a {
+                margin-top: 19px !important;
+            }
+        small.review-caption {
+            float: right;
+        }
+}

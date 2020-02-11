@@ -1,0 +1,10 @@
+@import "~src/variable.scss";
+
+.new-payment-method-section {
+    padding: 20px 0px;
+}
+iframe{ float: left; padding: 0px; margin: 0px; width: 80% !important;}
+.divMainForm{ float: left !important;}
+@media only screen and (max-width: 1024px) {
+    iframe{ width: 100% !important;}
+}
